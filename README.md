@@ -1,3 +1,54 @@
+---
+# Front Matter
+# Title of your project used for the breadcrumb title and meta title.
+title:  Google Assistant
+
+# Permalink your project will reside under on the 96boards.org website.
+# separate your title's words with dashes for SEO purposes.
+permalink: /projects/google-assistant/
+author: Sahaj Sarup
+
+# Add a description of your project
+description: The Google Assistant project aims at deploying Google Assistant on a DragonBoard410c by 96Boards. Recently, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB mic and speakers.
+
+# Add the names of your images which are stored in the sub folders here.
+# The first image is always used in the table at /projects/
+# This section is used to add a social media share image to your project.
+# Place the image you'd like to use when sharing on social media in the /assets/images/projects/
+# folder and adjust the following YAML accordingly.
+# High Res 1920 x 1080
+# regenerated on site build
+image: 
+    path: /assets/images/projects/placeholder.png
+#    list:
+#        - thumb.png
+#        - share.png
+#social:
+#  name: 96Boards
+#  links:
+#    - https://twitter.com/96boards
+#    - https://www.facebook.com/96Boards/
+#    - https://www.linkedin.com/company/96boards/
+#    - https://plus.google.com/+96Boards
+#    - https://github.com/96boards
+project:
+    # Difficulty level for your project <Beginner, Intermediate, Experienced>
+    #difficulty_level:
+    # - Beginner
+    # Boards that you have used in this project. For a full list of boards see 
+    # this file in the 96boards/website repo - _data/boards.yml
+    boards_used: 
+        - dragonboard410c
+    # Verticals are catagories that your project belongs to. For a full list of verticals see 
+    # this file in the 96boards/website repo - _data/verticles.yml
+    verticals:
+        - MachineLearning
+        - Maker
+#Optional tags for your projects: meta-key words
+tags:
+- dragonboard410c
+---
+
 # Google Assistant using 96Boards
   The Google Assistant project aims at deploying Google Assistant on a DragonBoard410c by 96Boards. Recently, Google released a software development kit (SDK) which allows third party developers to build their own Google Assistant on hardware of their choice. The SDK lets us add features such as hotword detection, voice control and natural language processing to devices of our choice. In this project we will make our own version of Google Assistant using a DragonBoard 410c, a USB mic and speakers.
   
